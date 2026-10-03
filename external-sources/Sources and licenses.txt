@@ -1,0 +1,20 @@
+RP 2040 Zero STP:
+https://grabcad.com/library/rp2040-zero-2
+- License: https://help.grabcad.com/article/246-how-can-models-be-used-and-shared
+
+JoyCon STP:
+https://grabcad.com/library/switch-joycon-joystick-1
+- License: https://help.grabcad.com/article/246-how-can-models-be-used-and-shared
+
+Steamdeck STP:
+https://gitlab.steamos.cloud/SteamHardware/SteamDeck/-/blob/master/steamdeck_step_20220202.stp?ref_type=heads
+- License: Creative Commons
+
+Gamepad Firmware:
+https://github.com/qmk/qmk.fm
+- License: MIT
+
+Framework Motherboard & Battery:
+https://www.printables.com/model/1826161-framework-laptop-12-mainboard
+https://www.printables.com/model/1825426-framework-laptop-12-battery-50wh
+- License: Creative Commons (4.0 International License)

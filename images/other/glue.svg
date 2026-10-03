@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Hintergrund ist komplett transparent -->
+  
+  <!-- Basis / Bauteil-Oberfläche -->
+  <line x1="10" y1="88" x2="90" y2="88" stroke="black" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Kleber-Blob auf der Oberfläche -->
+  <path d="M 22 88 C 22 79 42 79 42 88" fill="none" stroke="black" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Fallender Klebertropfen -->
+  <path d="M 32.3 71 Q 28 77 32.3 80 Q 36.6 77 32.3 71 Z" fill="none" stroke="black" stroke-width="3" stroke-linejoin="round" />
+  
+  <!-- Geneigte Klebertube (45 Grad gedreht) -->
+  <g transform="rotate(45, 50, 50)">
+    
+    <!-- Tubenkörper (leicht eingedrückt für den "Squeeze"-Effekt) -->
+    <path d="M 35 15 L 65 15 Q 58 37 60 60 L 40 60 Q 42 37 35 15 Z" fill="none" stroke="black" stroke-width="4" stroke-linejoin="round" />
+    
+    <!-- Falz der Tube (hinten) -->
+    <line x1="31" y1="15" x2="69" y2="15" stroke="black" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Riffelung am Falz -->
+    <line x1="40" y1="15" x2="40" y2="23" stroke="black" stroke-width="2" stroke-linecap="round" />
+    <line x1="50" y1="15" x2="50" y2="23" stroke="black" stroke-width="2" stroke-linecap="round" />
+    <line x1="60" y1="15" x2="60" y2="23" stroke="black" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Spitze / Düse -->
+    <path d="M 44 60 L 56 60 L 53 75 L 47 75 Z" fill="none" stroke="black" stroke-width="4" stroke-linejoin="round" />
+    
+    <!-- Aktionslinien: Zeigen an, dass die Tube gedrückt wird -->
+    <path d="M 26 30 Q 18 37 26 44" fill="none" stroke="black" stroke-width="3" stroke-linecap="round" />
+    <path d="M 74 30 Q 82 37 74 44" fill="none" stroke="black" stroke-width="3" stroke-linecap="round" />
+    
+  </g>
+</svg>
